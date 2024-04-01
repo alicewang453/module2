@@ -51,6 +51,6 @@ Now to make the enclosure!
 
     Back:
    
-    <img src="back_enclosure.png" width="400" alt="Alt text for image">
+    <img src="back_enclosure.png" width="400" height="500" alt="Alt text for image">
    
 11. Decorate the box with markers. Be sure to label the button and potentiometer. For the potentiometer, it's important to note at what point the curtain is fully closed, and at what point it is fully open.  
