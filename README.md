@@ -37,11 +37,11 @@ Process:
 
 Now to make the enclosure!
 
-8. First, secure basically everything using electric tape. Secure where wires connect to components, and where wires connect to the breadboard. 
-9. The breadboard and TTGO T1 board will be hidden inside the enclosure, so we have to make sure there are holes for any outfacing/out-going components.
+7. First, secure basically everything using electric tape. Secure where wires connect to components, and where wires connect to the breadboard. 
+8. The breadboard and TTGO T1 board will be hidden inside the enclosure, so we have to make sure there are holes for any outfacing/out-going components.
       - Using a pencil, trace the outlines of the button and the potentiometer onto the front of the cardboard box. Carve out the outlines with an X-acto knife.
       - Also carve out a small hole in the back of the box for the USB-C to USB-C cable. 
-10. Stick the breadboard and TTGO into the enclosure and secure to the bottom of box. Push the button and potentiometer into their corresponding holes and tape from within. Push USB-C cable through the hole in the back.
+9. Stick the breadboard and TTGO into the enclosure and secure to the bottom of box. Push the button and potentiometer into their corresponding holes and tape from within. Push USB-C cable through the hole in the back.
 
      Inside:
    
@@ -55,4 +55,4 @@ Now to make the enclosure!
    
     <img src="back_enclosure.png" width="400" height="500" alt="Alt text for image">
    
-11. Decorate the box with markers. Be sure to label the button and potentiometer. For the potentiometer, it's important to note at what point the curtain is fully closed, and at what point it is fully open.  
+10. Decorate the box with markers. Be sure to label the button and potentiometer. For the potentiometer, it's important to note at what point the curtain is fully closed, and at what point it is fully open.  
