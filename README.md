@@ -36,7 +36,7 @@ Process:
       
             <img src="pot.png" width="400" alt="Alt text for image">
 
-        Note the components are pictured separately, but both need to be connected to the board. 
+     - Note the components are pictured separately, but both need to be connected to the board. 
 
 4. Connect TTGO T1 board to laptop via USB-C to USB-C cable. Set up Arduino IDE by selecting “TTGO T1” for board and the correct USB-C port.
 5. Develop program in Arduino IDE that reads in the serial input from the button and potentiometer. Ensure you've written the correct pins numbers. Program found in repo.
