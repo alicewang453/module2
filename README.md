@@ -64,6 +64,6 @@ Now to make the enclosure!
     <img src="back_enclosure.png" width="400" height="500" alt="Alt text for image">
    
 10. Decorate the box with markers. Be sure to label the button and potentiometer. For the potentiometer, it's important to note at what point the curtain is fully closed, and at what point it is fully open.
-11. Now to run the game! First, ensure the Arduino code has been flashed to the TTGO T1 board. Then, close the application to ensure the port is not busy. Finally, run the Python program, and you are good to go!
+11. Now to run the game! First, ensure the Arduino code has been flashed to the TTGO T1 board. Then, close the application to ensure the port is not busy. Finally, run the Python program, and the following screen should pop up. Now you can start taking care of your plant!
 
     <img src="flowergame_screen.png" width="500" alt="Alt text for image">
