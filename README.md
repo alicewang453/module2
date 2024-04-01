@@ -43,7 +43,7 @@ Now to make the enclosure!
 
      Inside:
    
-     <img src="inside_enclosure.png" width="400" alt="Alt text for image" style="transform: rotate(90deg); display: inline-block;">
+     <img src="inside_enclosure.png" width="400" alt="Alt text for image">
 
      Front:
    
