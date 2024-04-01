@@ -41,13 +41,16 @@ Now to make the enclosure!
       - Also carve out a small hole in the back of the box for the USB-C to USB-C cable. 
 9. Stick the breadboard and TTGO into the enclosure and secure to the bottom of box. Push the button and potentiometer into their corresponding holes and tape from within. Push USB-C cable through the hole in the back.
 
-     Inside: 
+     Inside:
+   
    <img src="inside_enclosure.png" width="400" alt="Alt text for image">
 
-     Front: 
+     Front:
+   
     <img src="toggles.png" width="400" alt="Alt text for image">
 
     Back:
+   
     <img src="back_enclosure.png" width="400" alt="Alt text for image">
    
 11. Decorate the box with markers. Be sure to label the button and potentiometer. For the potentiometer, it's important to note at what point the curtain is fully closed, and at what point it is fully open.  
