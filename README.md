@@ -18,7 +18,7 @@ Hardware Materials:
 Enclosure materials: 
 * Cardboard Box - to be used as an enclosure
 * Electric Tape
-* Markers, Pen
+* Markers, Pen, Pencil
 * X-acto knife
 
 Process: 
@@ -34,5 +34,11 @@ Process:
 3. Connect TTGO T1 board to laptop via USB-C to USB-C cable. Set up Arduino IDE by selecting “TTGO T1” for board and the correct USB-C port.
 4. Develop program in Arduino IDE that read in the serial input from the button and potentiometer. Ensure you've written the correct pins numbers. Program found in repo.
 5. Upload code to device.
-6. Develop game program in Python using Pygame library. Ensure you establish a serial connection with the correct USB-C port (same port from step 3). Example code: ```ser = serial.Serial('/dev/cu.usbserial-56230075411', 115200, timeout=1)``` Program found in repo. 
-7. 
+6. Develop game program in Python using Pygame library. Ensure you establish a serial connection with the correct USB-C port (same port from step 3). Example code: `ser = serial.Serial('/dev/cu.usbserial-56230075411', 115200, timeout=1)` Program found in repo. 
+Now to make the enclosure!
+7. First, secure basically everything using electric tape. Secure where wires connect to components, and where wires connect to the breadboard. 
+8. The breadboard and TTGO T1 board will be hidden inside the enclosure, so we have to make sure there are holes for any outfacing/out-going components.
+      - Using a pencil, trace the outlines of the button and the potentiometer onto the front of the cardboard box. Carve out the outlines with an X-acto knife.
+      - Also carve out a small hole in the back of the box for the USB-C to USB-C cable. 
+9. Stick the breadboard and TTGO into the enclosure and secure to the bottom of box. Push the button and potentiometer into their corresponding holes and tape from within. Push USB-C cable through the hole in the back. 
+10. Decorate the box with markers. Be sure to label the button and potentiometer. For the potentiometer, it's important to note at what point the curtain is fully closed, and at what point it is fully open.  
