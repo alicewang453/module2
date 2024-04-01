@@ -25,11 +25,17 @@ Process:
 2. Use the Male-to-Female wires to connect the button and potentiometer to the breadboard, thereby connecting the button and potentiometer to the TTGO T1.
      - For the button, notice that there are 4 prongs on the button, but the 4 are paired into 2 pairs:
          - Connect one prong from the other pair to a ground pin.
-         - Connect one prong from one pair to a GPIO pin on the TTGO T1 (again, via breadboard). Note the pin number. 
+         - Connect one prong from one pair to a GPIO pin on the TTGO T1 (again, via breadboard). Note the pin number.
+      
+            <img src="button.png" width="400" alt="Alt text for image">
+
      - For the potentiometer, notice that there are 3 prongs in a line:
          - Connect one outer prong to the 3V pin.
          - Connect the other outer prong to a ground pin.
          - Connect the middle prong to a GPIO pin. Note the pin number.
+      
+            <img src="pot" width="400" alt="Alt text for image">
+
 3. Connect TTGO T1 board to laptop via USB-C to USB-C cable. Set up Arduino IDE by selecting “TTGO T1” for board and the correct USB-C port.
 4. Develop program in Arduino IDE that reads in the serial input from the button and potentiometer. Ensure you've written the correct pins numbers. Program found in repo.
 5. Upload code to device.
