@@ -2,10 +2,10 @@
 
 ## Grow Your Own Pixel Plant
 
-Description:
+**Description:**
 A game that simulates a virtual plant, whose conditions are affected by 2 factors: whether the user has watered the plant, and whether there is an optimal level of light for the plant. Hardware components provide interactable controls for the factors - a button allows the user to water the plant, and a potentiometer toggle alows the user to adjust curtains in the background of the game as proxy for changing the lighting for the plant. 
 
-Hardware Materials:
+**Hardware Materials:**
 * TTGO T1 board with built-in ESP32 microcontroller
 * Potentiometer Toggle
 * Button
@@ -14,13 +14,13 @@ Hardware Materials:
 * USB-C to USB-C cable 
 * Laptop with USB-C port
 
-Enclosure materials: 
+**Enclosure materials:**
 * Cardboard Box - to be used as an enclosure
 * Electric Tape
 * Markers, Pen, Pencil
 * X-acto knife
 
-Process: 
+**Process:** 
 1. Align the TTGO T1 board with the breadboard so that each pin corresponds with its own row on the breadboard. Gently insert the TTGO board into the breadboard.
 2. Use the Male-to-Female wires to connect the button and potentiometer to the breadboard, thereby connecting the button and potentiometer to the TTGO T1.
      - For the button, notice that there are 4 prongs on the button, but the 4 are paired into 2 pairs:
