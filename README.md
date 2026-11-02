@@ -1,11 +1,27 @@
-# COMS3930 Module 2: Sensors and WebSerial Project
+# Grow Your Own Pixel Plant
 
-## Grow Your Own Pixel Plant
+A virtual houseplant you look after with real hardware. Press a physical button to water it and turn a knob to open or close the curtains. Water it every day and keep the light in the right range and it grows; neglect it and it shrinks and turns grey.
 
-**Description:**
-A game that simulates a virtual plant, whose conditions are affected by 2 factors: whether the user has watered the plant, and whether there is an optimal level of light for the plant. Hardware components provide interactable controls for the factors - a button allows the user to water the plant, and a potentiometer toggle alows the user to adjust curtains in the background of the game as proxy for changing the lighting for the plant. 
+<img src="flowergame_screen.png" width="500" alt="The pixel plant game: a potted plant between two curtains, with the day count and watering status">
 
-**Hardware Materials:**
+<img src="total_enclosure.png" width="400" alt="The cardboard controller with a watering button and a curtain knob">
+
+## How it works
+
+1. **Microcontroller** ([`serial_reading.ino`](serial_reading.ino)): an ESP32 board (TTGO T1) reads a button and a potentiometer and streams both readings over USB serial at 115200 baud.
+2. **Game** ([`flowergame.py`](flowergame.py)): a Python and Pygame app reads that serial stream. The knob's 0–4095 reading sets how far the curtains close, and a button press plays a watering animation and marks the plant as watered.
+3. **Growth rules**: each in-game day lasts one real minute (press **S** to skip ahead). At the end of a day, a watered plant with the curtains 30–70% closed grows and stays green. A watered plant with too much or too little light grows less and turns grey, and an unwatered plant shrinks.
+4. **Saving**: the plant's height, color, day and curtain position are saved to `game_state.json`, so your plant is still there next time.
+
+## Tech
+
+C++ (Arduino) on an ESP32 · Python · Pygame · pySerial
+
+Built for COMS 3930 at Columbia (Module 2: sensors and serial communication).
+
+## Build it yourself
+
+**Hardware materials:**
 * TTGO T1 board with built-in ESP32 microcontroller
 * Potentiometer Toggle
 * Button
